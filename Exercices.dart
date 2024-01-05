@@ -14,7 +14,15 @@ void main()
 
 
   // Exercise 2
-
-
+  print("Entrer un nombre:");
+  int? nombre = int.parse(stdin.readLineSync()!);
+  if(nombre>0)
+  {
+    print("Le nombre est positif");
+  }
+  else
+  {
+    print("Le nombre est négatif");
+  }
 
 }
