@@ -37,4 +37,21 @@ void main()
     }
   }
  
+  // Exercise 3 done
+
+
+  // Exercise 4
+  print("Entrer un nombre (Exercice 4):");
+  int? number = int.parse(stdin.readLineSync()!);
+  for( var i=1 ;i<=number/2; i++)
+  {
+    if(number % i==0)
+    {
+      print("$i");
+    }
+  }
+  // Exercise 4 done
+
+
+  // Exercise 5
 }
