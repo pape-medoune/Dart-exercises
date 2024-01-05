@@ -1,4 +1,4 @@
-import 'dart:io';
+import 'dart:io'; 
 
 
 void main()
@@ -24,5 +24,17 @@ void main()
   {
     print("Le nombre est négatif");
   }
+  // Exercise 2 done
 
+
+  // Exercise 3
+  List <int> a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+  for (var i in a)
+  {
+    if( i<=5 )
+    {
+      print("$i");
+    }
+  }
+ 
 }
